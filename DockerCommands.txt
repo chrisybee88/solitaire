@@ -1,0 +1,3 @@
+// open cmd here
+// docker run --rm -it -p 8000:80 nginx
+docker run -it -p 8000:80 -v C:\Source\SandBox\solitaire\app:/usr/share/nginx/html nginx
